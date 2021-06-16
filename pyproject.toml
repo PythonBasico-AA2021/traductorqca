@@ -3,6 +3,14 @@ name = "traductorsq"
 version = "0.0.0"
 description = "Traductor de palabras"
 authors = ["Santiago Quiñones-Cuenca <lsquinones@gmail.com>"]
+keywords = ["traductor"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/PythonBasico-AA2021/traductorqca"
+repository = "https://github.com/PythonBasico-AA2021/traductorqca"
+include = [
+    "LICENSE",
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
