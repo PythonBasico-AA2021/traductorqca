@@ -1,14 +1,20 @@
 [tool.poetry]
 name = "tradutorsq"
-version = "0.1.0"
-description = ""
+version = "0.0.2"
+description = "Traductor de palabras"
 authors = ["Santiago Quiñones-Cuenca <lsquinones@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+translate = "^3.5.0"
+click = "^8.0.1"
+
+[tool.poetry.scripts]
+tradutorsq = 'tradutorsq.__main__:main'
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+twine = "^3.4.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
