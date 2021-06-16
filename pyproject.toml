@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "traductorsq"
-version = "0.0.2"
+version = "0.0.5"
 description = "Traductor de palabras"
 authors = ["Santiago Quiñones-Cuenca <lsquinones@gmail.com>"]
 keywords = ["traductor"]
@@ -13,9 +13,9 @@ include = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-translate = "^3.5.0"
+python = "^3.6"
 click = "^8.0.1"
+translate = "3.5.0"
 
 [tool.poetry.scripts]
 traductorsq = 'traductorsq.__main__:main'
