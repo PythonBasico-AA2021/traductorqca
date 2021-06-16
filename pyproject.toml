@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "traductorsq"
-version = "0.0.0"
+version = "0.0.2"
 description = "Traductor de palabras"
 authors = ["Santiago Quiñones-Cuenca <lsquinones@gmail.com>"]
 keywords = ["traductor"]

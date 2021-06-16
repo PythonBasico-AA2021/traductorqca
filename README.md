@@ -1,6 +1,6 @@
 # TRADUCTOR
 
-Programa para traducir palabras de Ingles a Español
+Programa para traducir palabras de Ingles a Español.
 
 ## Instalación
 
